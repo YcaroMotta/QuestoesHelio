@@ -28,7 +28,7 @@ public class Questão28 {
 
         sValorCheque = JOptionPane.showInputDialog("Digite o valor do cheque:");
         valorCheque = Double.parseDouble(sValorCheque);
-        imposto = valorCheque * 0.38;
+        imposto = valorCheque * 0.0038;
 
         JOptionPane.showMessageDialog(null, "O valor descontado pelo imposto é: R$ " + String.format("%.2f", imposto));
     }
